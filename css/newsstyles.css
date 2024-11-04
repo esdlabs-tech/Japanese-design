@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+    font-family: 'Sanfrancisco', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 8px;
+    background: #f0f3f5;
+  }
+  
+  /* Header Styles */
+  header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    gap: 16px;
+    margin-bottom: 12px;
+    background-color: #dbd8d8;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-height: 40px;
+    padding: 11px;
+  }
+  
+  .main-nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-nav li {
+    margin-right: 20px;
+  }
+  
+  .main-nav a {
+    color: #3030d7;
+    text-decoration: none;
+  }
+
+  .main-nav a:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+  
+  .search-box button {
+    background-color: #fff;
+    color: #13138F;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Main Content Styles */
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .news-article {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  .featured-image img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .news-title {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .article-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .news-content {
+    margin-top: 20px;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    flex: 1;
+  }
+  
+  .most-read,
+  .categories,
+  .advertisement {
+    background-color: #dbd8d8;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .most-read h2,
+  .categories h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .most-read ul,
+  .categories ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .most-read li,
+  .categories li {
+    margin-bottom: 10px;
+  }
+  
+  .most-read a,
+  .categories a {
+    color: #13138F;
+    text-decoration: none;
+  }
+
+  .most-read a:hover,
+  .categories a:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .advertisement img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #dbd8d8;
+    color: #050505;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-content ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-content li {
+    margin-left: 20px;
+  }
+  
+  .footer-content a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .footer-content a:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
